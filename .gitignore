@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+data/uploads/*
+data/processed/*
+data/vectorstore/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/vectorstore/.gitkeep
+outputs/*
+.streamlit/secrets.toml
+venv/
+.venv/
+*.egg-info/
