@@ -159,13 +159,3 @@ paste your Gemini API key into the sidebar, and you're ready to upload PDFs.
   always verify against the source PDF before submitting your report,
   consistent with the course's academic-integrity policy.
 
-## Suggested team division (3-4 members)
-
-- **Member A -- Data & PDF pipeline**: `pdf_extractor.py`, `chunking.py`,
-  dataset/paper sourcing.
-- **Member B -- NLP/Embeddings**: `vector_store.py`, embedding strategy,
-  retrieval tuning (`TOP_K_CHUNKS`, chunk size).
-- **Member C -- LLM/Agent logic**: `extraction.py`, `gap_analysis.py`,
-  prompt design and the novelty write-up.
-- **Member D -- GUI & integration**: `app.py`, `report_export.py`, demo
-  video, README/report writing.
